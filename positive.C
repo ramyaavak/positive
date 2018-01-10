@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int num;
 printf("Enter the value:");
@@ -10,4 +10,5 @@ else if(num<0)
 printf("The value is negative");
 else
 printf("The value is zero");
+return 0;
 }
